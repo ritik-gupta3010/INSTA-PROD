@@ -1,0 +1,83 @@
+.sidebar
+{
+    position: fixed;
+    flex: 5.5;
+    margin-top: 3%;
+    margin-right: 8%;
+    cursor: pointer;
+    color: rgb(50, 55, 101);
+    right: 10%;
+    width: 25%;
+    /* position:absolute */
+}
+
+.sidebarItem
+{
+    display: flex;
+    flex-direction: column;
+}
+.user
+{
+    margin-bottom: 3%;
+    /* width: 70%; 
+     */
+}
+
+.userIcon
+{
+    font-size: 300%;
+    margin-right: 15%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    /* color: blue; */
+}
+
+.switch
+{
+    cursor: pointer;
+}
+.userSwitch
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3px;
+    width: 70%;
+}
+.sugg
+{
+    margin-top: 2%;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+
+@media screen and (max-width: 960px) {
+    .userSwitch
+    {
+        /* background-color: red; */
+        width: auto;
+    }
+    .sugg
+    {
+        width: auto;
+        
+        /* background-color: red; */
+    }
+  }
+
+  @media screen and (max-width:850px) {
+    .sidebar
+    {
+        display: none;
+    }
+    
+}
+@media screen and (max-width:1120px) {
+    .sidebar{
+        left: 70%;
+    }
+    
+}
+  

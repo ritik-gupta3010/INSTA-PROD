@@ -1,0 +1,170 @@
+.post
+{
+    width: 420px;
+    /* width: 53%; */
+    margin: 0px 25px 40px 25px;
+    border: 1px solid rgb(50, 55, 101);
+    border-radius: 10px;
+    background-color: white;
+    
+}
+
+.postTop
+{
+    padding: 3%;
+    cursor: pointer;
+    display: flex;
+}
+
+.postTopIcon
+{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+
+.postTopIconLocation
+{
+    font-size: 22px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    color:  rgb(50, 55, 101);
+}
+.postTopIconRight
+{
+    
+    display: flex;
+    margin-right: -200px;
+    color:  rgb(50, 55, 101);
+}
+.postTopDot
+{
+    padding-left: 90%;
+}
+
+.singlePostIcon:first-child{
+    /* color: teal; */
+    padding-top: 2px;
+}
+.singlePostIcon
+{
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 30px;
+}
+/* .singlePostIcon:last-child{
+    color: tomato;
+} */
+.postBottom
+{
+    
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: space-around;
+    margin-bottom: 8px;
+    margin-top: 5px;
+}
+
+.postBottomIcon
+{
+    
+    font-size: 125%;
+    /* padding-right: 10px;
+    padding-left: 5px; */
+}
+
+.postBottomIconClick
+{
+    font-size: 125%;
+    /* padding-left: 5px;
+    padding-right: 10px; */
+    color: red;
+    
+}
+.postBottomComment
+{
+    font-size: 125%;
+}
+.postBottomRight
+{
+    /* padding-left: -20%; */
+    font-size: 125%;
+    /* margin-right: 8px;
+    margin-left: 4px; */
+}
+.postImage
+{
+    width: 100%;
+    height: 450px;
+    
+}
+
+.desc
+{
+    /* display: flex; */
+    color:  rgb(50, 55, 101);
+    /* white-space: nowrap; */
+    text-align: justify;
+    word-wrap: break-word;
+    
+    
+}
+
+.postBottomDesc
+{
+    cursor: pointer;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-bottom: 3%;
+}
+
+.postBottomCommentCount
+{
+    cursor: pointer;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-bottom: 3%;
+    color:  rgb(50, 55, 101);
+}
+.commentInput
+{
+    margin-top: 15px;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  border: 1px solid gray;
+}
+
+.postBottomCommentReply
+{
+    cursor: pointer;
+    padding-left: 3%;
+    padding-right: 3%;
+    
+    /* color:  rgb(50, 55, 101); */
+    
+}
+.postBottomCommentReplyUl{
+    padding-top: -10px;
+    padding-bottom: -10px;
+}
+
+.postBottomCommentReplyUlLi{
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    word-wrap: break-word;
+    
+}
+.reply{
+    margin-top: 5px;
+    background-color: #d7d3d3;
+    /* background-color: #fafafa; */
+    border-radius: 5px;
+    width: 84%;
+    /* padding-left: 8px;
+    padding-top: 5px; */
+    padding: 10px;
+}

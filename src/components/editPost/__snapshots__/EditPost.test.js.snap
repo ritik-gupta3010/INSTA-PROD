@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditPost should render properly 1`] = `
+"<Fragment>
+  <ForwardRef(Dialog) open={[undefined]} fullWidth={true} maxWidth=\\"md\\" fullHeight={true}>
+    <ForwardRef(AppBar) sx={{...}}>
+      <ForwardRef(Toolbar)>
+        <ForwardRef(Typography) sx={{...}} variant=\\"h6\\" component=\\"div\\" id=\\"dialogeTop\\">
+          Edit Post
+        </ForwardRef(Typography)>
+        <ForwardRef(IconButton) color=\\"inherit\\" onClick={[Function (anonymous)]} sx={{...}}>
+          <Memo(ForwardRef(CloseIcon)) />
+        </ForwardRef(IconButton)>
+      </ForwardRef(Toolbar)>
+    </ForwardRef(AppBar)>
+    <ForwardRef(DialogContent) sx={{...}}>
+      <div className=\\"write\\">
+        <form className=\\"writeForm\\">
+          <div className=\\"writeFormGroup\\">
+            <div className=\\"writeFormGroupLeft\\">
+              <img src={[undefined]} className=\\"img-Preview\\" id=\\"preview\\" alt=\\"\\" />
+            </div>
+            <div className=\\"writeFormGroupRight\\">
+              <div className=\\"writeFormGroupRightProfile\\">
+                <img src=\\"post.jpg\\" alt=\\"userProfile\\" style={{...}} />
+                <span id=\\"userName\\" style={{...}}>
+                  Ritik Gupta
+                </span>
+              </div>
+              <input type=\\"text\\" id=\\"img\\" name=\\"imgS\\" className=\\"writeInput21\\" placeholder=\\"If you want to change the image of the blog then paste the new link here\\" value={[undefined]} onChange={[Function: onChange]} />
+              <p id=\\"requiredImg\\" style={{...}} />
+              <textarea className=\\"writeInput2 writeText\\" name=\\"descS\\" id=\\"desc\\" value={[undefined]} onChange={[Function: onChange]} />
+              <p id=\\"requiredDesc\\" style={{...}} />
+              <input className=\\"location\\" name=\\"locationS\\" id=\\"location\\" value={[undefined]} onChange={[Function: onChange]} />
+              <p id=\\"requiredLocation\\" style={{...}} />
+            </div>
+          </div>
+        </form>
+      </div>
+    </ForwardRef(DialogContent)>
+    <ForwardRef(DialogActions) sx={{...}}>
+      <span>
+        <ForwardRef(Button) variant=\\"contained\\" className=\\"writeSubmit2\\" disabled={true} title=\\"You have not done any changes\\" sx={{...}}>
+          Post
+        </ForwardRef(Button)>
+      </span>
+    </ForwardRef(DialogActions)>
+  </ForwardRef(Dialog)>
+  <ForwardRef(Dialog) open={false}>
+    <ForwardRef(DialogTitle)>
+      Are you sure you don&#39;t want to edit this post?
+    </ForwardRef(DialogTitle)>
+    <ForwardRef(DialogContent)>
+      <ForwardRef(DialogContentText) id=\\"alert-dialog-description\\">
+        If you click yes, you will be redirected to the home page.
+      </ForwardRef(DialogContentText)>
+    </ForwardRef(DialogContent)>
+    <ForwardRef(DialogActions)>
+      <ForwardRef(Button) onClick={[Function (anonymous)]} variant=\\"contained\\" sx={{...}}>
+        No
+      </ForwardRef(Button)>
+      <ForwardRef(Button) onClick={[Function (anonymous)]} variant=\\"contained\\" sx={{...}}>
+        Yes
+      </ForwardRef(Button)>
+    </ForwardRef(DialogActions)>
+  </ForwardRef(Dialog)>
+  <ForwardRef(Dialog) open={false}>
+    <ForwardRef(DialogTitle) id=\\"alert-dialog-title\\">
+      Are you sure you want to update your post?
+    </ForwardRef(DialogTitle)>
+    <ForwardRef(DialogContent)>
+      <ForwardRef(DialogContentText) id=\\"alert-dialog-description\\">
+        If you click yes, your previous data will be replaced by the new data.
+      </ForwardRef(DialogContentText)>
+    </ForwardRef(DialogContent)>
+    <ForwardRef(DialogActions)>
+      <ForwardRef(Button) onClick={[Function (anonymous)]} variant=\\"contained\\" sx={{...}}>
+        No
+      </ForwardRef(Button)>
+      <ForwardRef(Button) onClick={[Function (anonymous)]} id=\\"supportyes\\" variant=\\"contained\\" sx={{...}}>
+        Yes
+      </ForwardRef(Button)>
+    </ForwardRef(DialogActions)>
+  </ForwardRef(Dialog)>
+</Fragment>"
+`;
